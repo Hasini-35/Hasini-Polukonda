@@ -1,0 +1,23 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Database files
+*.db
+
+# Node modules
+frontend/node_modules/
+
+# Environment files
+*.env
+*.env.test.md
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
