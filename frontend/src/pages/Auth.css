@@ -1,0 +1,62 @@
+/* Center container */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5; /* light grey background */
+}
+
+.register-box,
+.login-container {
+  width: 350px;
+  padding: 30px;
+  background-color: #ffffff; /* white box */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.register-box h2,
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.register-box input,
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.register-box button,
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF; /* blue button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.register-box button:hover,
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+.register-box p,
+.login-container p {
+  margin-top: 15px;
+}
+
+.register-box a,
+.login-container a {
+  color: #007BFF;
+  text-decoration: underline;
+}
